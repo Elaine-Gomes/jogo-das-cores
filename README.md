@@ -8,7 +8,7 @@
 
 > Se clicar na cor correta, ganha-se 1 ponto. Quando a soma dos pontos for 5 ou mais, ganha-se o jogo, caso contrário, perde-se.
 
-> Você pode escolher entre os níveis: Normal e Hard. No normal, deve-se clicar apenas na cor correspondente. Já no Hard, além de clicar na cor, também é necessário clicar no nome da cor alternadamente.
+> Você pode escolher entre os níveis: Normal e Hard. No normal, deve-se clicar apenas na cor correspondente. Já no Hard, além de clicar na cor, também é necessário  clicar no nome da cor alternadamente.
 
 > A cada dois segundos, as posições e a cor a ser clicada são alteradas.
 
