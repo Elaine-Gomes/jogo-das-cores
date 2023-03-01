@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <title>Jogo Das Cores</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="wrapper">
+               <div class="punctuation">Pontuação: <span>00</span> </div>
+               <div class="game-duration">
+               <p>Tempo Restante: <span id="remaining-time">00</span></p> 
+                </div>
+            </div>
+            
+               
+             <div class="level">
+        
+                  <div id="level-normal">Normal</div>
+                     
+                        <div id="btn-toggle">
+                            <div id="toggle">
+                                
+                            </div>
+                        </div>
+                     
+                    <div id="level-hard">Hard</div>
+             </div>
+        </header>
+
+         <section id="section-colors">
+            <h1> <span id="define-colors-text">Clique na cor:</span> <span id="define-colors">Vermelha</span> </h1>
+
+            <div id="colors"></div>   
+        </section>
+
+        <section id="btn-game">
+           <button id="btn-play">Play</button>
+           <button id="btn-pause">Pause</button>
+           <button id="btn-restart">Restart</button>
+        </section>
+
+        <section id="game-over"> 
+            <div id="wrapper-end-game">
+                <span id="end-of-game"></span>
+                <span id="close-game-over">x</span> 
+                <div id="display-points">00</div>
+                <div id="display-level"></div>
+            </div>
+        
+        </section>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
